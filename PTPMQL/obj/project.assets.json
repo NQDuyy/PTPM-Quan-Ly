@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PTPMQL\\PTPMQL\\PTPMQL.csproj",
+      "projectUniqueName": "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj",
       "projectName": "PTPMQL",
-      "projectPath": "C:\\PTPMQL\\PTPMQL\\PTPMQL.csproj",
+      "projectPath": "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\PTPMQL\\PTPMQL\\obj\\",
+      "outputPath": "C:\\Phat trien phan mem quan ly\\PTPMQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

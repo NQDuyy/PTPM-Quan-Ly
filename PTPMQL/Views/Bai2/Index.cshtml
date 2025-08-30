@@ -1,0 +1,33 @@
+@model PTPMQL.Models.Bai2
+
+@{
+    ViewData["Title"] = "Phép tính cơ bản";
+}
+
+<h2>Phép tính cơ bản</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>Số thứ nhất:</label>
+        <input asp-for="Number1" type="number" step="any" required />
+    </div>
+
+    <div>
+        <label>Số thứ hai:</label>
+        <input asp-for="Number2" type="number" step="any" required />
+    </div>
+
+    <div>
+        <label>Chọn phép toán:</label>
+        <select asp-for="Operation">
+            <option value="Sum">Tổng (+)</option>
+            <option value="Sub">Hiệu (-)</option>
+            <option value="Mul">Tích (×)</option>
+            <option value="Div">Thương (÷)</option>
+        </select>
+    </div>
+
+    <button type="submit">Tính</button>
+</form>
+
+    <h3>Kết quả: @ViewBag.Result</h3>

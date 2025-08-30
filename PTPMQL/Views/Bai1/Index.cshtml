@@ -1,0 +1,25 @@
+@model PTPMQL.Models.Bai1
+@{
+    ViewData["Title"] = "Nhập thông tin cá nhân";
+}
+
+<h2>Nhập thông tin</h2>
+
+<form method="post">
+    <div>
+        <label>Họ tên:</label>
+        <input type="text" name="FullName" required />
+    </div>
+    <div>
+        <label>Năm sinh:</label>
+        <input type="number" name="YearOfBirth" required />
+    </div>
+    <button type="submit">Gửi</button>
+</form>
+
+@if (ViewBag.Name != null)
+{
+    <h3>Kết quả:</h3>
+    <p>Họ tên: @ViewBag.Name</p>
+    <p>Tuổi: @ViewBag.Age</p>
+}

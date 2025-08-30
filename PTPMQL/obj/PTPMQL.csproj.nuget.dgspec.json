@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PTPMQL\\ptpmql\\PTPMQL.csproj": {}
+    "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj": {}
   },
   "projects": {
-    "C:\\PTPMQL\\ptpmql\\PTPMQL.csproj": {
+    "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PTPMQL\\ptpmql\\PTPMQL.csproj",
+        "projectUniqueName": "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj",
         "projectName": "PTPMQL",
-        "projectPath": "C:\\PTPMQL\\ptpmql\\PTPMQL.csproj",
+        "projectPath": "C:\\Phat trien phan mem quan ly\\PTPMQL\\PTPMQL.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\PTPMQL\\ptpmql\\obj\\",
+        "outputPath": "C:\\Phat trien phan mem quan ly\\PTPMQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

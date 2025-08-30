@@ -1,0 +1,22 @@
+@model PTPMQL.Models.Bai3
+
+<h2>Tính chỉ số BMI</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>Chiều cao (m):</label>
+        <input asp-for="Height" step="0.01" />
+    </div>
+    <div>
+        <label>Cân nặng (kg):</label>
+        <input asp-for="Weight" step="0.1" />
+    </div>
+    <button type="submit">Tính BMI</button>
+</form>
+
+@if (ViewBag.BMI != null)
+{
+    <h3>Kết quả:</h3>
+    <p><b>BMI:</b> @ViewBag.BMI</p>
+    <p><b>Phân loại:</b> @ViewBag.Category</p>
+}
